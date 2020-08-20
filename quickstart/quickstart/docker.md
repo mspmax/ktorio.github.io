@@ -39,6 +39,7 @@ buildscript {
     }
     dependencies {
         ...
+        // Use version 5.2.0 for gradle versions 5+ and 6+
         classpath "com.github.jengelman.gradle.plugins:shadow:2.0.1"
     }
 }
